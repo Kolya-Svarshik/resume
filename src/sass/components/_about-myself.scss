@@ -1,0 +1,57 @@
+.container-work {
+  padding: 30px 20px 50px 50px;
+}
+.title-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.9;
+
+  & .title-work-text {
+    min-width: 200px;
+    white-space: nowrap;
+  }
+
+  &::after {
+    display: inline-block;
+    content: "";
+    width: 60%;
+    height: 15px;
+    background-color: $bg-sidebar;
+  }
+}
+.title-name {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.personal-information {
+  border-top: 1px solid $marker-list-color;
+  border-bottom: 1px solid $marker-list-color;
+}
+.list-information {
+  color: $block-info-text-color;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.9;
+}
+.additional {
+  padding-bottom: 55px;
+}
+.additional-information {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 1.9;
+}

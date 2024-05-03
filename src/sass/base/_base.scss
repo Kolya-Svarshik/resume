@@ -1,0 +1,31 @@
+body {
+  background-color: $g-backdrop-color;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+}
+.container-content {
+  max-width: 1280px;
+
+  display: flex;
+  margin: 0 auto;
+}
+main {
+  background-color: $g-white-color;
+  margin: 0 auto;
+
+  box-shadow: 5px 9px 20px $shadow;
+}
+.general-ul {
+  padding: 0;
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.general-a {
+  text-decoration: none;
+}
