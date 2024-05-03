@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luno-front-end/resume_refactoring.git"
+    "url": "git+https://github.com/Kolya-Svarshik/resume.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Buialo Nazar <nazarbuyalo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Luno-front-end/resume_refactoring/issues"
+    "url": "https://github.com/Kolya-Svarshik/resume/issues"
   },
-  "homepage": "https://Luno-front-end.github.io/resume_refactoring",
+  "homepage": "https://kolya-svarshik.github.io/resume/",
   "parcelCleanPaths": [
     "dist",
     ".parcel-cache"
