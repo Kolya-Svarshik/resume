@@ -24,16 +24,16 @@
     ".parcel-cache"
   ],
   "parcel-namer-custom": {
-    ".scss$": "land_files/css/[name].[hash].[type]",
-    ".jsx?$": "land_files/scripts/[name].[hash].[type]",
-    ".jpg$|.png$|.jpeg$|.svg$|.webp$|.ico": "land_files/img/[name].[hash].[type]",
-    ".svg$": "land_files/[folder][name].[hash].[type]"
+    ".scss$": "resume/land_files/css/[name].[hash].[type]",
+    ".jsx?$": "resume/land_files/scripts/[name].[hash].[type]",
+    ".jpg$|.png$|.jpeg$|.svg$|.webp$|.ico": "resume/land_files/img/[name].[hash].[type]",
+    ".svg$": "resume/land_files/[folder][name].[hash].[type]"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "buffer": "^6.0.3",
     "cssnano": "^5.1.14",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.7.0",
     "parcel-namer-custom": "^0.2.0",
     "parcel-plugin-clean-easy": "^1.0.2",
