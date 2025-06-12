@@ -1,4 +1,5 @@
 .container-work {
+  position: relative;
   padding: 30px 20px 50px 50px;
 }
 .title-work {
@@ -55,4 +56,27 @@
   font-weight: 400;
   line-height: 24px;
   margin-top: 1.9;
+}
+
+.language-selector {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language-selector select {
+  background-color: transparent;
+  border: none;
+  color: $block-info-text-color;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.9;
+}
+
+.language-selector option img {
+  width: 20px;
+  height: 20px;
 }
